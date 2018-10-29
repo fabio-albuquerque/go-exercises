@@ -5,6 +5,7 @@ import (
 )
 
 // Level 1
+
 // func main() {
 // 	x := 42
 // 	y := "James Bond"
@@ -18,6 +19,7 @@ import (
 // }
 
 // Level 2
+
 // var x int
 // var y string
 // var z bool
@@ -32,13 +34,30 @@ import (
 // }
 
 // Level 3
-var x int = 42
-var y string = "James Bond"
-var z bool = true
+
+// var x int = 42
+// var y string = "James Bond"
+// var z bool = true
+
+// func main() {
+
+// 	s := fmt.Sprintf("%v\n%v\n%v\n", x, y, z)
+
+// 	fmt.Println(s)
+// }
+
+// Level 4
+
+// Test is a new type with the underlying type being 'int'
+type Test int
+
+var x Test
 
 func main() {
 
-	s := fmt.Sprintf("%v\n%v\n%v\n", x, y, z)
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
 
-	fmt.Println(s)
+	x = 42
+	fmt.Println(x)
 }
