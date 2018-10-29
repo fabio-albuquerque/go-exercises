@@ -49,9 +49,26 @@ import (
 // Exercise 4
 
 // Test is a new type with the underlying type being 'int'
+// type Test int
+
+// var x Test
+
+// func main() {
+
+// 	fmt.Println(x)
+// 	fmt.Printf("%T\n", x)
+
+// 	x = 42
+// 	fmt.Println(x)
+// }
+
+// Exercise 5
+
+// Test is a new type with the underlying type being 'int'
 type Test int
 
 var x Test
+var y int
 
 func main() {
 
@@ -60,4 +77,8 @@ func main() {
 
 	x = 42
 	fmt.Println(x)
+
+	y = int(x)
+	fmt.Println(y)
+	fmt.Printf("%T\n", y)
 }
