@@ -32,9 +32,9 @@ import (
 // }
 
 // Level 3
-var x = 42
-var y = "James Bond"
-var z = true
+var x int = 42
+var y string = "James Bond"
+var z bool = true
 
 func main() {
 
