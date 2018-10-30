@@ -32,7 +32,7 @@ import (
 // 	fmt.Println(b)
 // }
 
-// Exercise 2
+// Exercise 3
 
 const (
 	a      = 42
