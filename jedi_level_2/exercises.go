@@ -59,8 +59,25 @@ import (
 
 // Exercise 5
 
-func main() {
-	a := `Simon says "hello world!"`
+// func main() {
+// 	a := `Simon says "hello world!"`
 
-	fmt.Println(a)
+// 	fmt.Println(a)
+// }
+
+// Exercise 6
+
+const (
+	year1 = 2018 + iota
+	year2
+	year3
+	year4
+)
+
+func main() {
+
+	fmt.Println(year1)
+	fmt.Println(year2)
+	fmt.Println(year3)
+	fmt.Println(year4)
 }
