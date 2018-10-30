@@ -21,7 +21,7 @@ func main() {
 	// fmt.Println(e)
 	// fmt.Println(f)
 
-	for i := 0; i <= 100; i++ {
-		fmt.Println(i)
+	for i := 33; i <= 122; i++ {
+		fmt.Printf("%v\t%#x\t%#U\n", i, i, i)
 	}
 }
