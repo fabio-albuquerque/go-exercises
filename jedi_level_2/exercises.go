@@ -47,12 +47,20 @@ import (
 
 // Exercise 4
 
+// func main() {
+// 	a := 32
+
+// 	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
+
+// 	a = a << 1
+
+// 	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
+// }
+
+// Exercise 5
+
 func main() {
-	a := 32
+	a := `Simon says "hello world!"`
 
-	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
-
-	a = a << 1
-
-	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
+	fmt.Println(a)
 }
