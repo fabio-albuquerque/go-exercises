@@ -13,21 +13,34 @@ import (
 
 // Exercise 2
 
+// func main() {
+// 	b := false
+// 	n := 40
+
+// 	if b == false {
+// 		b = true
+// 	}
+
+// 	if n >= 40 || n <= 40 {
+// 		b = true
+// 	}
+
+// 	if n < 40 || n > 40 || n != 40 {
+// 		b = false
+// 	}
+
+// 	fmt.Println(b)
+// }
+
+// Exercise 2
+
+const (
+	a      = 42
+	b bool = true
+)
+
 func main() {
-	b := false
-	n := 40
 
-	if b == false {
-		b = true
-	}
-
-	if n >= 40 || n <= 40 {
-		b = true
-	}
-
-	if n < 40 || n > 40 || n != 40 {
-		b = false
-	}
-
+	fmt.Println(a)
 	fmt.Println(b)
 }
