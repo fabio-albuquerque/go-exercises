@@ -6,7 +6,28 @@ import (
 
 // Exercise 1
 
+// func main() {
+// 	n := 80
+// 	fmt.Printf("%d\t%b\t%#x", n, n, n)
+// }
+
+// Exercise 2
+
 func main() {
-	n := 80
-	fmt.Printf("%d\t%b\t%#x", n, n, n)
+	b := false
+	n := 40
+
+	if b == false {
+		b = true
+	}
+
+	if n >= 40 || n <= 40 {
+		b = true
+	}
+
+	if n < 40 || n > 40 || n != 40 {
+		b = false
+	}
+
+	fmt.Println(b)
 }
