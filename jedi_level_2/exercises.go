@@ -7,5 +7,6 @@ import (
 // Exercise 1
 
 func main() {
-	fmt.Println("test")
+	n := 80
+	fmt.Printf("%v\t%b\t%x", n, n, n)
 }
