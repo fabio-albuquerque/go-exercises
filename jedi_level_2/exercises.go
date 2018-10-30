@@ -8,5 +8,5 @@ import (
 
 func main() {
 	n := 80
-	fmt.Printf("%d\t%b\t%x", n, n, n)
+	fmt.Printf("%d\t%b\t%#x", n, n, n)
 }
