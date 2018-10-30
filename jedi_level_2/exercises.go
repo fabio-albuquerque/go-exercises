@@ -34,13 +34,25 @@ import (
 
 // Exercise 3
 
-const (
-	a      = 42
-	b bool = true
-)
+// const (
+// 	a      = 42
+// 	b bool = true
+// )
+
+// func main() {
+
+// 	fmt.Println(a)
+// 	fmt.Println(b)
+// }
+
+// Exercise 4
 
 func main() {
+	a := 32
 
-	fmt.Println(a)
-	fmt.Println(b)
+	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
+
+	a = a << 1
+
+	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
 }
