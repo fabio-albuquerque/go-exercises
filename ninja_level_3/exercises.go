@@ -94,14 +94,24 @@ import (
 
 // Exercise 9
 
+// func main() {
+// 	favSport := "tEsT"
+// 	switch favSport {
+// 	case "test":
+// 		fmt.Println("test")
+// 	case "TEST":
+// 		fmt.Println("TEST")
+// 	default:
+// 		fmt.Printf("Default: %v", favSport)
+// 	}
+// }
+
+// Exercise 10
+
 func main() {
-	favSport := "tEsT"
-	switch favSport {
-	case "test":
-		fmt.Println("test")
-	case "TEST":
-		fmt.Println("TEST")
-	default:
-		fmt.Printf("Default: %v", favSport)
-	}
+	fmt.Printf("true && true is: %v\n", true)
+	fmt.Printf("true && false is: %v\n", false)
+	fmt.Printf("true || true is: %v\n", true)
+	fmt.Printf("true || false is: %v\n", true)
+	fmt.Printf("!true is: %v\n", true)
 }
