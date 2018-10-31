@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 // Exercise 1
@@ -49,10 +50,21 @@ import (
 
 // Exercise 5
 
+// func main() {
+// 	for i := 10; i <= 100; i++ {
+// 		if i%4 == 0 {
+// 			fmt.Println(i)
+// 		}
+// 	}
+// }
+
+// Exercise 6
+
 func main() {
-	for i := 10; i <= 100; i++ {
-		if i%4 == 0 {
-			fmt.Println(i)
-		}
+	b := "james Bond1"
+	if "james bond" == strings.ToLower(b) {
+		fmt.Println(true)
+	} else {
+		fmt.Println(false)
 	}
 }
