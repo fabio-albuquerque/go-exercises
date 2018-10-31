@@ -60,11 +60,24 @@ import (
 
 // Exercise 6
 
+// func main() {
+// 	b := "james Bond1"
+// 	if "james bond" == strings.ToLower(b) {
+// 		fmt.Println(true)
+// 	} else {
+// 		fmt.Println(false)
+// 	}
+// }
+
+// Exercise 7
+
 func main() {
 	b := "james Bond1"
 	if "james bond" == strings.ToLower(b) {
-		fmt.Println(true)
+		fmt.Println("true 1")
+	} else if "james bond1" == strings.ToLower(b) {
+		fmt.Println("true 2")
 	} else {
-		fmt.Println(false)
+		fmt.Println("false")
 	}
 }
