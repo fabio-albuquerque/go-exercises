@@ -21,7 +21,12 @@ func main() {
 	// fmt.Println(e)
 	// fmt.Println(f)
 
-	for i := 33; i <= 122; i++ {
-		fmt.Printf("%v\t%#x\t%#U\n", i, i, i)
+	// for i := 33; i <= 122; i++ {
+	// 	fmt.Printf("%v\t%#x\t%#U\n", i, i, i)
+	// }
+
+	test := []int{1, 2, 3, 4, 5}
+	for i, v := range test {
+		fmt.Println(i, v)
 	}
 }
