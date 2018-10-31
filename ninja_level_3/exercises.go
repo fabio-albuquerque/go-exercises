@@ -26,10 +26,24 @@ import (
 
 // Exercise 3
 
+// func main() {
+// 	year := 1989
+// 	for year <= time.Now().Year() {
+// 		fmt.Println(year)
+// 		year++
+// 	}
+// }
+
+// Exercise 4
+
 func main() {
 	year := 1989
-	for year <= time.Now().Year() {
-		fmt.Println(year)
-		year++
+	for {
+		if year <= time.Now().Year() {
+			fmt.Println(year)
+			year++
+		} else {
+			break
+		}
 	}
 }
