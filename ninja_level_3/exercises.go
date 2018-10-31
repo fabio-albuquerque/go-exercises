@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 // Exercise 1
@@ -71,13 +70,24 @@ import (
 
 // Exercise 7
 
+// func main() {
+// 	b := "james Bond1"
+// 	if "james bond" == strings.ToLower(b) {
+// 		fmt.Println("true 1")
+// 	} else if "james bond1" == strings.ToLower(b) {
+// 		fmt.Println("true 2")
+// 	} else {
+// 		fmt.Println("false")
+// 	}
+// }
+
+// Exercise 8
+
 func main() {
-	b := "james Bond1"
-	if "james bond" == strings.ToLower(b) {
-		fmt.Println("true 1")
-	} else if "james bond1" == strings.ToLower(b) {
-		fmt.Println("true 2")
-	} else {
-		fmt.Println("false")
+	switch {
+	case true:
+		fmt.Println(true)
+	case false:
+		fmt.Println(false)
 	}
 }
