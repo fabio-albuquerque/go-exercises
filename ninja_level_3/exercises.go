@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 // Exercise 1
@@ -36,14 +35,24 @@ import (
 
 // Exercise 4
 
+// func main() {
+// 	year := 1989
+// 	for {
+// 		if year <= time.Now().Year() {
+// 			fmt.Println(year)
+// 			year++
+// 		} else {
+// 			break
+// 		}
+// 	}
+// }
+
+// Exercise 5
+
 func main() {
-	year := 1989
-	for {
-		if year <= time.Now().Year() {
-			fmt.Println(year)
-			year++
-		} else {
-			break
+	for i := 10; i <= 100; i++ {
+		if i%4 == 0 {
+			fmt.Println(i)
 		}
 	}
 }
