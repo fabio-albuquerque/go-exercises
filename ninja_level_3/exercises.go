@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+// Exercise 1
+
 func main() {
-	fmt.Println("Hello world!")
+	for i := 1; i <= 10000; i++ {
+		fmt.Println(i)
+	}
 }
