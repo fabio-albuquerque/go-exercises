@@ -83,11 +83,25 @@ import (
 
 // Exercise 8
 
+// func main() {
+// 	switch {
+// 	case true:
+// 		fmt.Println(true)
+// 	case false:
+// 		fmt.Println(false)
+// 	}
+// }
+
+// Exercise 9
+
 func main() {
-	switch {
-	case true:
-		fmt.Println(true)
-	case false:
-		fmt.Println(false)
+	favSport := "tEsT"
+	switch favSport {
+	case "test":
+		fmt.Println("test")
+	case "TEST":
+		fmt.Println("TEST")
+	default:
+		fmt.Printf("Default: %v", favSport)
 	}
 }
